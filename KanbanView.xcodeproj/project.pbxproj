@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90687771E24B19E006A333F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C90687761E24B19E006A333F /* main.m */; };
+		C906877A1E24B19E006A333F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C90687791E24B19E006A333F /* AppDelegate.m */; };
+		C906877D1E24B19E006A333F /* ZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C906877C1E24B19E006A333F /* ZViewController.m */; };
+		C90687821E24B19E006A333F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90687811E24B19E006A333F /* Assets.xcassets */; };
+		C90687851E24B19E006A333F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90687831E24B19E006A333F /* LaunchScreen.storyboard */; };
+		C906878E1E24B1D8006A333F /* ZPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C906878D1E24B1D8006A333F /* ZPageScrollView.m */; };
+		C90687911E24B31B006A333F /* UIView+ZCRMAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C90687901E24B31B006A333F /* UIView+ZCRMAutoLayout.m */; };
+		C90687A51E26273B006A333F /* women.png in Resources */ = {isa = PBXBuildFile; fileRef = C90687A11E26273B006A333F /* women.png */; };
+		C90687A71E26273B006A333F /* women0.png in Resources */ = {isa = PBXBuildFile; fileRef = C90687A31E26273B006A333F /* women0.png */; };
+		C986B5301E27609B008BE423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C906877E1E24B19E006A333F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C90687721E24B19E006A333F /* KanbanView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanbanView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90687761E24B19E006A333F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C90687781E24B19E006A333F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C90687791E24B19E006A333F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C906877B1E24B19E006A333F /* ZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZViewController.h; sourceTree = "<group>"; };
+		C906877C1E24B19E006A333F /* ZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZViewController.m; sourceTree = "<group>"; };
+		C906877F1E24B19E006A333F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C90687811E24B19E006A333F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C90687841E24B19E006A333F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C90687861E24B19E006A333F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C906878C1E24B1D8006A333F /* ZPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPageScrollView.h; sourceTree = "<group>"; };
+		C906878D1E24B1D8006A333F /* ZPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPageScrollView.m; sourceTree = "<group>"; };
+		C906878F1E24B31B006A333F /* UIView+ZCRMAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZCRMAutoLayout.h"; sourceTree = "<group>"; };
+		C90687901E24B31B006A333F /* UIView+ZCRMAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZCRMAutoLayout.m"; sourceTree = "<group>"; };
+		C90687A11E26273B006A333F /* women.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = women.png; sourceTree = "<group>"; };
+		C90687A31E26273B006A333F /* women0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = women0.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C906876F1E24B19D006A333F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C90687691E24B19D006A333F = {
+			isa = PBXGroup;
+			children = (
+				C90687741E24B19E006A333F /* KanbanView */,
+				C90687731E24B19E006A333F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C90687731E24B19E006A333F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90687721E24B19E006A333F /* KanbanView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90687741E24B19E006A333F /* KanbanView */ = {
+			isa = PBXGroup;
+			children = (
+				C90687A11E26273B006A333F /* women.png */,
+				C90687A31E26273B006A333F /* women0.png */,
+				C90687781E24B19E006A333F /* AppDelegate.h */,
+				C90687791E24B19E006A333F /* AppDelegate.m */,
+				C906878F1E24B31B006A333F /* UIView+ZCRMAutoLayout.h */,
+				C90687901E24B31B006A333F /* UIView+ZCRMAutoLayout.m */,
+				C906877B1E24B19E006A333F /* ZViewController.h */,
+				C906877C1E24B19E006A333F /* ZViewController.m */,
+				C906878C1E24B1D8006A333F /* ZPageScrollView.h */,
+				C906878D1E24B1D8006A333F /* ZPageScrollView.m */,
+				C906877E1E24B19E006A333F /* Main.storyboard */,
+				C90687811E24B19E006A333F /* Assets.xcassets */,
+				C90687831E24B19E006A333F /* LaunchScreen.storyboard */,
+				C90687861E24B19E006A333F /* Info.plist */,
+				C90687751E24B19E006A333F /* Supporting Files */,
+			);
+			path = KanbanView;
+			sourceTree = "<group>";
+		};
+		C90687751E24B19E006A333F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C90687761E24B19E006A333F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90687711E24B19D006A333F /* KanbanView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90687891E24B19E006A333F /* Build configuration list for PBXNativeTarget "KanbanView" */;
+			buildPhases = (
+				C906876E1E24B19D006A333F /* Sources */,
+				C906876F1E24B19D006A333F /* Frameworks */,
+				C90687701E24B19D006A333F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanbanView;
+			productName = KanbanView;
+			productReference = C90687721E24B19E006A333F /* KanbanView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C906876A1E24B19D006A333F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thamil Selvan V";
+				TargetAttributes = {
+					C90687711E24B19D006A333F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R4F89R73A4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C906876D1E24B19D006A333F /* Build configuration list for PBXProject "KanbanView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90687691E24B19D006A333F;
+			productRefGroup = C90687731E24B19E006A333F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90687711E24B19D006A333F /* KanbanView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C90687701E24B19D006A333F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C986B5301E27609B008BE423 /* Main.storyboard in Resources */,
+				C90687851E24B19E006A333F /* LaunchScreen.storyboard in Resources */,
+				C90687821E24B19E006A333F /* Assets.xcassets in Resources */,
+				C90687A51E26273B006A333F /* women.png in Resources */,
+				C90687A71E26273B006A333F /* women0.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C906876E1E24B19D006A333F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906877D1E24B19E006A333F /* ZViewController.m in Sources */,
+				C906878E1E24B1D8006A333F /* ZPageScrollView.m in Sources */,
+				C906877A1E24B19E006A333F /* AppDelegate.m in Sources */,
+				C90687911E24B31B006A333F /* UIView+ZCRMAutoLayout.m in Sources */,
+				C90687771E24B19E006A333F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C906877E1E24B19E006A333F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C906877F1E24B19E006A333F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C90687831E24B19E006A333F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90687841E24B19E006A333F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C90687871E24B19E006A333F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C90687881E24B19E006A333F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C906878A1E24B19E006A333F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R4F89R73A4;
+				INFOPLIST_FILE = KanbanView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtouch.KanbanView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C906878B1E24B19E006A333F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R4F89R73A4;
+				INFOPLIST_FILE = KanbanView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtouch.KanbanView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C906876D1E24B19D006A333F /* Build configuration list for PBXProject "KanbanView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90687871E24B19E006A333F /* Debug */,
+				C90687881E24B19E006A333F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90687891E24B19E006A333F /* Build configuration list for PBXNativeTarget "KanbanView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C906878A1E24B19E006A333F /* Debug */,
+				C906878B1E24B19E006A333F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C906876A1E24B19D006A333F /* Project object */;
+}
